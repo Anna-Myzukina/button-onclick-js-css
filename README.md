@@ -9,8 +9,8 @@ function viewDiv(){
 }
 <input type="button" value="Click" onmousedown="viewDiv()">
 <div id="div1">Блок</div>
--->
----------------------
+
+
 
 $('.btn').click(function(){
   $(".block_with_text").fadeToggle(100);
